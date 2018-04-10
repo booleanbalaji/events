@@ -1,3 +1,21 @@
+- name: Advanced React Workshop
+  title: Advanced React Workshop by Reactjs Bangalore
+  city: Bangalore
+  venue: reliance jio infocomm, Ashok Nagar
+  start_time: 2018-03-31 15:00
+  end_time: 2018-03-31 18:00
+  url: https://www.meetup.com/ReactJS-Bangalore/events/248148010/
+  blurb: "This is a hands on workshop that covers intermediate and advanced concepts of React. Covers topics like higher order components, server side rendering, performance optimisations"
+
+- name: DevHack 2018
+  title: "DevHack 2018: A hackathon by Axis Bank"
+  city:  Bangalore
+  venue: Online
+  start_time: 2018-03-12 09:00
+  end_time: 2018-03-31 23:59
+  url: https://www.axisbank.com/thoughtfactory/hackathon.html
+  blurb: "Build brilliant solutions for #Bankingtech sector at #DevHack2018 ,the one-of-its-kind hackathon by Thought Factory & Zone Startups & takeaway cash prizes, PoC opportunities and much more with Axis Bank. Problem statements: Live photo detection, Voice Authentication"
+
 - name: Hacktoberfest
   title: Chennai Hacktoberfest
   city:  Chennai
@@ -629,7 +647,7 @@
   end_time: 2018-03-11 17:00 
   url: https://fifthelephant.in/2018-mar-dl-bootcamp/
   blurb: Learn theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing.
-  
+
 - name: vidhi-bengaluru-book-launch
   title: "Vidhi Bengaluru Book Launch on Legal Reforms" 
   city: Bangalore
@@ -647,7 +665,7 @@
   end_time: 2018-02-25 10:00 
   url: https://jsfoo.in/2018-feb-hacknight/
   blurb: Hack on Node.js at HasGeek on 24-25 Feb from 5 pm. Food and snacks on us. Limited seats, sign up now!
-  
+
 - name: symposium-on-computational-gastronomy
   title: "Symposium on Computational Gastronomy"
   city: Delhi/NCR
@@ -656,7 +674,7 @@
   end_time: 2018-03-17 18:30
   url: https://www.iiitd.ac.in/webstory/gastrosym2018
   blurb: A one day Symposium on the emerging theme of Computational Gastronomy - the data science of food, flavors and health. Conducted by the Complex Systems Laboratory, Center for Computational Biology, IIIT-Delhi. Organizer - Dr. Ganesh Bagler.
-  
+
 - name: girls-who-javascript
   title: "Girls Who JavaScript"
   city: Bangalore
@@ -674,7 +692,7 @@
   end_time: 2018-04-07 13:00
   url: https://reactfoo.in/2018-graphql-apollo-workshop-blr/
   blurb: Learn how to build apps with React, GraphQL and Apollo.
-  
+
 - name: 2018-selenium-conf-india
   title: "Selenium Conference India 2018"
   city: Bangalore
@@ -692,7 +710,7 @@
   end_time: 2018-03-28 19:00
   url: https://50p.in/public-lecture-zooko/
   blurb: A talk on cryptocurrencies, blockchain and the importance of privacy.
-  
+
 - name: diversity-meetup-@Walmartlabs
   title: "Inclusiveness and diversity meetup, @WalmartLabs"
   city: Bangalore
@@ -701,13 +719,129 @@
   end_time: 2018-04-07 12:45
   url: https://rootconf.in/2018-diversity-meetup-walmart/
   blurb: Giving voice to our work; making work spaces safe and inclusive.  
-  
+
 - name: Koffee-with-Kubernetes@Hasura
   title: "Meetup: Koffee with Kubernetes"
   city: Bangalore
   venue: Hasura Technologies, Bangalore
-  start_time: 2018-03-22 18:00
-  end_time: 2018-03-22 20:00
+  start_time: 2018-03-29 18:00
+  end_time: 2018-03-29 20:00
   url: https://www.meetup.com/Kubernetes-for-Application-Developers/
   blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
+  
+- name: learning-nlp-bootcamp-may-2018
+  title: "Bootcamp: Learning representations of text for NLP"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-05-19 09:00
+  end_time: 2018-05-20 17:00
+  url: https://anthillinside.in/2018-nlp-bootcamp/
+  blurb: Learn and implement an end-to-end deep learning models for natural language processing.
+  
+- name: GitkubeWebinar@Hasura
+  title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
+  city: Bangalore
+  venue: Online
+  start_time: 2018-03-28 22:00
+  end_time: 2018-03-28 23:00
+  url: https://zoom.us/meeting/register/327b2f6fc966bb3fc5b9141539e44ee6
+  blurb: A live-coding demo using GitKube to build and deploy Docker images to Kubernetes with a simple git push. 
 
+- name: girls-who-javascript
+  title: "Girls Who JavaScript Meetup #6"
+  city: Bangalore
+  venue: Treebo Hotels, Bommanahalli, Bangalore
+  start_time: 2018-05-06 11:00
+  end_time: 2018-05-06 13:00
+  url: https://www.meetup.com/Girls-Who-Javascript/events/248947763/
+  blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: workshop-machine-learning-with-amazon-sagemaker-blr
+  title: "Workshop: Machine Learning with Amazon SageMaker - Bangalore"
+  city: Bangalore
+  venue: IKP Eden, Bangalore
+  start_time: 2018-04-04 10:00
+  end_time: 2018-04-04 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-bangalore/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-delhi
+  title: "Workshop: Machine Learning with Amazon SageMaker - Delhi/NCR"
+  city: Delhi/NCR
+  venue: Amazon Internet Services, Delhi
+  start_time: 2018-04-06 10:00
+  end_time: 2018-04-06 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-delhi/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-mumbai
+  title: "Workshop: Machine Learning with Amazon SageMaker - Mumbai"
+  city: Mumbai
+  venue: Amazon Internet Services, Mumbai
+  start_time: 2018-04-13 10:00
+  end_time: 2018-04-13 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-mumbai/
+  blurb: Building, training and deploying machine learning models efficiently and at scale. 
+
+- name: workshop-machine-learning-with-amazon-sagemaker-pune
+  title: "Workshop: Machine Learning with Amazon SageMaker - Pune"
+  city: Pune
+  venue: Venue TBA, Pune
+  start_time: 2018-04-20 10:00
+  end_time: 2018-04-20 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-pune/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-chennai
+  title: "Workshop: Machine Learning with Amazon SageMaker - Chennai"
+  city: Chennai
+  venue: Venue TBA, Chennai
+  start_time: 2018-04-27 10:00
+  end_time: 2018-04-27 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-chennai/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+  
+- name: workshop-machine-learning-with-amazon-sagemaker-hyderabad
+  title: "Workshop: Machine Learning with Amazon SageMaker - Hyderabad"
+  city: Hyderabad
+  venue: Venue TBA, Hyderabad
+  start_time: 2018-05-03 10:00
+  end_time: 2018-05-03 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+  
+- name: geekabyte-reactjs-workshop-mumbai
+  title: "Geekabyte: Starter Byte Zero to Hero in React"
+  city: Mumbai
+  venue: Of10, Powai
+  start_time: 2018-04-21 09:00
+  end_time: 2018-04-21 18:00
+  url: http://www.geekabyte.tech/
+  blurb: Learn React & React core concepts from experts Manjula Dube, Vihang Patel.
+
+- name: vue-blr-april
+  title: "VueBLR #7 - Building Mobile Apps"
+  city: Bangalore
+  venue: HasGeek office, Indira Nagar
+  start_time: 2018-04-28 14:00
+  end_time: 2018-04-28 17:00
+  url: https://www.meetup.com/vue-bangalore
+  blurb: Learn to build native applications using Vue.
+
+- name: workshop-react-0to100-pune
+  title: "Workshop: React 0 to 100 in a day"
+  city: Pune
+  venue: Pune
+  start_time: 2018-04-28 09:00
+  end_time: 2018-04-28 18:00
+  url: https://reactfoo.in/2018-pune-react-0-to-100/
+  blurb: Learn React and start implementing reusable, interactive and stateful UI components.
+
+- name: legacy-code-open-house
+  title: "Modelling costs of security issues in legacy code"
+  city: Bangalore
+  venue: HasGeek House, Bangalore
+  start_time: 2018-04-20 17:00
+  end_time: 2018-04-20 19:00
+  url: https://rootconf.in/legacy-code-open-house/
+  blurb: Learn more about legacy code and the costs associated with it.
