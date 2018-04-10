@@ -1,0 +1,163 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: textarea
+  hidden: false
+  default: ''
+- name: datelocation
+  label: Datelocation
+  type: datetime
+  hidden: false
+  default: ''
+- name: city
+  label: City
+  type: text
+  hidden: false
+  default: ''
+- name: start_time
+  label: Start time
+  type: datetime
+  hidden: false
+  default: ''
+- name: end_time
+  label: End time
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: boxoffice_item_collection
+  label: Boxoffice item collection
+  type: text
+  hidden: false
+  default: ''
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: label
+    label: Label
+    type: text
+    hidden: false
+    default: ''
+  - name: lat
+    label: Lat
+    type: text
+    hidden: false
+    default: ''
+  - name: lng
+    label: Lng
+    type: text
+    hidden: false
+    default: ''
+  - name: address
+    label: Address
+    type: textarea
+    hidden: false
+    default: ''
+  - name: google_maps_url
+    label: Google maps url
+    type: text
+    hidden: false
+    default: ''
+  - name: mapbox
+    label: Mapbox
+    type: field_group
+    fields:
+    - name: style
+      label: Style
+      type: text
+      hidden: false
+      default: ''
+    - name: access_token
+      label: Access token
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: overview
+  label: Overview
+  type: field_group
+  fields:
+  - name: left_content
+    label: Left content
+    type: textarea
+    hidden: false
+    default: ''
+  - name: right_content
+    label: Right content
+    type: textarea
+    hidden: false
+    default: ''
+  - name: center_content
+    label: Center content
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: speakers
+  label: Speakers
+  type: field_group_list
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: byline
+    label: Byline
+    type: text
+    hidden: false
+    default: ''
+  - name: image_url
+    label: Image url
+    type: text
+    hidden: false
+    default: ''
+  - name: bio
+    label: Bio
+    type: textarea
+    hidden: false
+    default: ''
+  - name: website
+    label: Website
+    type: field_group
+    fields:
+    - name: url
+      label: Url
+      type: text
+      hidden: false
+      default: ''
+    - name: label
+      label: Label
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
