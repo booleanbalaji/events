@@ -1,0 +1,406 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: textarea
+  hidden: false
+  default: ''
+- name: datelocation
+  label: Datelocation
+  type: datetime
+  hidden: false
+  default: ''
+- name: city
+  label: City
+  type: text
+  hidden: false
+  default: ''
+- name: start_time
+  label: Start time
+  type: datetime
+  hidden: false
+  default: ''
+- name: end_time
+  label: End time
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: label
+    label: Label
+    type: text
+    hidden: false
+    default: ''
+  - name: lat
+    label: Lat
+    type: text
+    hidden: false
+    default: ''
+  - name: lng
+    label: Lng
+    type: text
+    hidden: false
+    default: ''
+  - name: address
+    label: Address
+    type: textarea
+    hidden: false
+    default: ''
+  - name: google_maps_url
+    label: Google maps url
+    type: text
+    hidden: false
+    default: ''
+  - name: mapbox
+    label: Mapbox
+    type: field_group
+    fields:
+    - name: style
+      label: Style
+      type: text
+      hidden: false
+      default: ''
+    - name: access_token
+      label: Access token
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: overview
+  label: Overview
+  type: field_group
+  fields:
+  - name: left_content
+    label: Left content
+    type: textarea
+    hidden: false
+    default: ''
+  - name: right_content
+    label: Right content
+    type: textarea
+    hidden: false
+    default: ''
+  - name: center_content
+    label: Center content
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: field_group
+  fields:
+  - name: image_url
+    label: Image url
+    type: file
+    hidden: false
+    default: ''
+  - name: has_title
+    label: Has title
+    type: boolean
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: funnel
+  label: Funnel
+  type: field_group
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: open
+    label: Open
+    type: boolean
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: schedule
+  label: Schedule
+  type: field_group
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: json_url
+    label: Json url
+    type: text
+    hidden: false
+    default: ''
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: announcements
+  label: Announcements
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Text
+    type: textarea
+    hidden: false
+    default: ''
+  - name: icon
+    label: Icon
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: featured_speakers
+  label: Featured speakers
+  type: field_group_list
+  fields:
+  - name: funnel_url
+    label: Funnel url
+    type: textarea
+    hidden: false
+    default: ''
+  - name: talk_title
+    label: Talk title
+    type: text
+    hidden: false
+    default: ''
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: designation
+    label: Designation
+    type: text
+    hidden: false
+    default: ''
+  - name: image_url
+    label: Image url
+    type: text
+    hidden: false
+    default: ''
+  - name: website
+    label: Website
+    type: field_group
+    fields:
+    - name: label
+      label: Label
+      type: text
+      hidden: false
+      default: ''
+    - name: url
+      label: Url
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: blurb
+    label: Blurb
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: sponsor
+  label: Sponsor
+  type: field_group
+  fields:
+  - name: blurb
+    label: Blurb
+    type: textarea
+    hidden: false
+    default: ''
+  - name: sponsorship_deck_url
+    label: Sponsorship deck url
+    type: text
+    hidden: false
+    default: ''
+  - name: sponsors
+    label: Sponsors
+    type: field_group_list
+    fields:
+    - name: title
+      label: Title
+      type: text
+      hidden: false
+      default: ''
+    - name: size
+      label: Size
+      type: text
+      hidden: false
+      default: ''
+    - name: sponsors
+      label: Sponsors
+      type: list
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: related_events
+  label: Related events
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: datelocation
+    label: Datelocation
+    type: datetime
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: photo_album
+  label: Photo album
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: photos
+    label: Photos
+    type: field_group_list
+    fields:
+    - name: url
+      label: Url
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: youtube_url
+  label: Youtube url
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: youtube_embed
+    label: Youtube embed
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: banner
+  label: Banner
+  type: text
+  hidden: false
+  default: ''
+- name: blog
+  label: Blog
+  type: field_group
+  fields:
+  - name: feed_url
+    label: Feed url
+    type: text
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: mailchimp
+  label: Mailchimp
+  type: field_group
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: u
+    label: U
+    type: text
+    hidden: false
+    default: ''
+  - name: id
+    label: Id
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: discussions
+  label: Discussions
+  type: field_group_list
+  fields:
+  - name: talk_title
+    label: Talk title
+    type: text
+    hidden: false
+    default: ''
+  - name: funnel_url
+    label: Funnel url
+    type: text
+    hidden: false
+    default: ''
+  - name: blurb
+    label: Blurb
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
